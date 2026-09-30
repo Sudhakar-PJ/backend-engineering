@@ -17,8 +17,8 @@
 
 - **Tier**: `T1`
 - **Subsection**: `T1.2 — Async Model`
-- **Topic**: `Event loop phases`
-- **Next**: `Event loop phases`
+- **Topic**: `Cancellation with AbortController / AbortSignal`
+- **Next**: `Cancellation with AbortController / AbortSignal`
 
 ---
 
@@ -53,11 +53,11 @@
 
 ### T1.2 — Async Model
 
-- [ ] Event loop phases
-- [ ] Microtasks vs macrotasks
-- [ ] Promises
-- [ ] `async`/`await` mechanics
-- [ ] Async iteration
+- [x] Event loop phases
+- [x] Microtasks vs macrotasks
+- [x] Promises
+- [x] `async`/`await` mechanics
+- [x] Async iteration
 - [ ] Cancellation with `AbortController` / `AbortSignal`
 - [ ] Unhandled rejection & uncaught exception policy
 
@@ -164,12 +164,19 @@
 - **REVISIT logged**: None
 - **Next session starts at**: `T1.1 topic 6 (Property descriptors & reflection)`
 
-### `2026-09-30`
+### `2026-09-30` (Session 1)
 
 - **Completed**: `Property descriptors & reflection`, `Modules: ESM vs CommonJS`, `Iterators & iterables`
 - **Stuck on**: None
 - **REVISIT logged**: None
 - **Next session starts at**: `T1.2 topic 1 (Event loop phases)`
+
+### `2026-09-30` (Session 2)
+
+- **Completed**: `Event loop phases`, `Microtasks vs macrotasks`, `Promises`, `async/await mechanics`, `Async iteration`
+- **Stuck on**: None
+- **REVISIT logged**: None
+- **Next session starts at**: `T1.2 topic 6 (Cancellation with AbortController / AbortSignal)`
 
 ---
 
